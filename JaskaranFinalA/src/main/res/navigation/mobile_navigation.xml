@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/jasnavigation_home">
+
+    <fragment
+        android:id="@+id/jasnavigation_home"
+        android:name="jaskaran.singh.s301109429.ui.home.JaskaranFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_jaskaran" />
+
+    <fragment
+        android:id="@+id/jasnavigation_s301109429"
+        android:name="jaskaran.singh.s301109429.ui.dashboard.S301109429Fragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_s301109429" />
+
+    <fragment
+        android:id="@+id/jasnavigation_notifications"
+        android:name="jaskaran.singh.s301109429.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/jasnavigation_android"
+        android:name="jaskaran.singh.s301109429.ui.notifications.NotificationsFragment"
+        android:label="Android"
+        tools:layout="@layout/fragment_notifications" />
+</navigation>

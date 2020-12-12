@@ -1,0 +1,16 @@
+<resources>
+
+
+
+
+    <!--First name: Jaskaran
+    Last name: Singh
+    Student Id: 301109429
+    Section: 002-->
+
+
+    <string name="app_name">JaskaranFinalA</string>
+    <string name="title_home">Jaskaran</string>
+    <string name="title_dashboard">s301109429</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

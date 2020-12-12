@@ -1,0 +1,2 @@
+include ':JaskaranFinalA'
+rootProject.name = "JaskaranFinalA"

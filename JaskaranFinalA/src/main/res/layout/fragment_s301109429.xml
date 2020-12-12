@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/teal_700"
+    tools:context=".ui.dashboard.S301109429Fragment">
+<TextView
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Jaskaran Singh"
+    android:textAlignment="center"
+    android:layout_gravity="center"
+    android:textStyle="bold"
+    android:textSize="25dp"
+    android:textColor="@color/purple_500" />
+
+    <EditText
+        android:id="@+id/jasemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email ID"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/jaspassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Password, Digits Only"
+        android:inputType="numberPassword" />
+
+    <CheckBox
+        android:id="@+id/jascheckbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remember Me" />
+
+    <Button
+        android:id="@+id/jaslogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jaskaran Validate Login" />
+
+
+</LinearLayout>
